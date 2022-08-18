@@ -4,9 +4,9 @@ locals {
 
 terraform {
   backend "s3" {
-    bucket         = "istio-tf-backend"
-    key            = "terraform.tfstate"
-    region         = local.region
+    bucket = "istio-tf-backend"
+    key    = "terraform.tfstate"
+    region = "eu-west-1"
   }
 }
 
