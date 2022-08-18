@@ -5,6 +5,7 @@
 
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
+  create_vpc = false
 
   name = "istio-demo"
   cidr = "10.0.0.0/16"

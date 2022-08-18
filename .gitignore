@@ -1,0 +1,6 @@
+.terraform
+.terraform/*
+*.log
+*.txt
+*.tfstate
+*.tfvars
