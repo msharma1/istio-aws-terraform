@@ -12,7 +12,7 @@ terraform {
 
 provider "aws" {
   region = local.region
-  profile  = "default"
+  # profile  = "default"
 }
 
 module "vpc" {
